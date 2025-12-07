@@ -438,12 +438,32 @@
     "interval": 600000
   },
   "juejin": {
+    "redirect": "juejin-hot",
     "name": "稀土掘金",
     "type": "hottest",
     "column": "tech",
     "home": "https://juejin.cn",
     "color": "blue",
-    "interval": 600000
+    "interval": 1800000,
+    "title": "后端-热榜"
+  },
+  "juejin-hot": {
+    "name": "稀土掘金",
+    "type": "hottest",
+    "column": "tech",
+    "home": "https://juejin.cn",
+    "color": "blue",
+    "interval": 1800000,
+    "title": "后端-热榜"
+  },
+  "juejin-news": {
+    "name": "稀土掘金",
+    "type": "realtime",
+    "column": "tech",
+    "home": "https://juejin.cn",
+    "color": "blue",
+    "interval": 1800000,
+    "title": "后端-最新"
   },
   "ifeng": {
     "title": "热点资讯",

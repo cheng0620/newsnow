@@ -387,6 +387,18 @@ export const originSources = {
     color: "blue",
     type: "hottest",
     home: "https://juejin.cn",
+    sub: {
+      hot: {
+        title: "后端-热榜",
+        interval: Time.Common,
+        type: "hottest",
+      },
+      news: {
+        title: "后端-最新",
+        interval: Time.Common,
+        type: "realtime",
+      },
+    },
   },
   "ifeng": {
     name: "凤凰网",
