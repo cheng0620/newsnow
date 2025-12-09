@@ -24,6 +24,12 @@ export const columns = {
   hottest: {
     zh: "最热",
   },
+  technology: {
+    zh: "技术",
+  },
+  web3: {
+    zh: "Web3",
+  },
 } as const
 
 export const fixedColumnIds = ["focus", "hottest", "realtime"] as const satisfies Partial<ColumnID>[]

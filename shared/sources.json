@@ -441,7 +441,7 @@
     "redirect": "juejin-hot",
     "name": "稀土掘金",
     "type": "hottest",
-    "column": "tech",
+    "column": "technology",
     "home": "https://juejin.cn",
     "color": "blue",
     "interval": 1800000,
@@ -450,7 +450,7 @@
   "juejin-hot": {
     "name": "稀土掘金",
     "type": "hottest",
-    "column": "tech",
+    "column": "technology",
     "home": "https://juejin.cn",
     "color": "blue",
     "interval": 1800000,
@@ -459,7 +459,7 @@
   "juejin-news": {
     "name": "稀土掘金",
     "type": "realtime",
-    "column": "tech",
+    "column": "technology",
     "home": "https://juejin.cn",
     "color": "blue",
     "interval": 1800000,
@@ -468,7 +468,7 @@
   "juejin-recommend": {
     "name": "稀土掘金",
     "type": "hottest",
-    "column": "tech",
+    "column": "technology",
     "home": "https://juejin.cn",
     "color": "blue",
     "interval": 1800000,
@@ -477,7 +477,7 @@
   "juejin-synthesis": {
     "name": "稀土掘金",
     "type": "hottest",
-    "column": "tech",
+    "column": "technology",
     "home": "https://juejin.cn",
     "color": "blue",
     "interval": 1800000,
@@ -563,5 +563,24 @@
     "home": "https://www.freebuf.com/",
     "color": "green",
     "interval": 600000
+  },
+  "odaily": {
+    "redirect": "odaily-news",
+    "name": "Odaily",
+    "type": "realtime",
+    "column": "web3",
+    "home": "https://www.freebuf.com/news/web3",
+    "color": "green",
+    "interval": 600000,
+    "title": "新闻快讯"
+  },
+  "odaily-news": {
+    "name": "Odaily",
+    "type": "realtime",
+    "column": "web3",
+    "home": "https://www.freebuf.com/news/web3",
+    "color": "green",
+    "interval": 600000,
+    "title": "新闻快讯"
   }
 }

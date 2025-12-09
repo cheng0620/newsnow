@@ -383,7 +383,7 @@ export const originSources = {
   },
   "juejin": {
     name: "稀土掘金",
-    column: "tech",
+    column: "technology",
     color: "blue",
     type: "hottest",
     home: "https://juejin.cn",
@@ -404,7 +404,7 @@ export const originSources = {
         type: "hottest",
       },
       synthesis: {
-        title: "后端-推荐",
+        title: "综合-最新",
         interval: Time.Common,
         type: "hottest",
       },
@@ -474,6 +474,20 @@ export const originSources = {
     color: "green",
     type: "hottest",
     home: "https://www.freebuf.com/",
+  },
+  "odaily": {
+    name: "Odaily",
+    column: "web3",
+    color: "green",
+    type: "hottest",
+    home: "https://rss.odaily.news",
+    sub: {
+      news: {
+        title: "新闻快讯",
+        type: "realtime",
+        home: "https://www.freebuf.com/news/web3",
+      },
+    },
   },
 } as const satisfies Record<string, OriginSource>
 
