@@ -474,6 +474,15 @@
     "interval": 1800000,
     "title": "后端-推荐"
   },
+  "juejin-synthesis": {
+    "name": "稀土掘金",
+    "type": "hottest",
+    "column": "tech",
+    "home": "https://juejin.cn",
+    "color": "blue",
+    "interval": 1800000,
+    "title": "综合-最新"
+  },
   "ifeng": {
     "title": "热点资讯",
     "name": "凤凰网",

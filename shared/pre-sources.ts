@@ -403,6 +403,11 @@ export const originSources = {
         interval: Time.Common,
         type: "hottest",
       },
+      synthesis: {
+        title: "后端-推荐",
+        interval: Time.Common,
+        type: "hottest",
+      },
     },
   },
   "ifeng": {

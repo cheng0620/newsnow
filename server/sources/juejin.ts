@@ -16,6 +16,17 @@ interface BackendLatestRes {
   }[]
 }
 
+interface SynthesisRes {
+  data: {
+    item_info: {
+      article_info: {
+        article_id: string
+        title: string
+      }
+    }
+  }[]
+}
+
 /**
  * 掘金-排行榜-后端
  */
@@ -102,9 +113,44 @@ const recommend = defineSource(async () => {
   })
 })
 
+/**
+ * 掘金-首页-综合-最新
+ */
+const synthesis = defineSource(async () => {
+  const url = `https://api.juejin.cn/recommend_api/v1/article/recommend_all_feed?spider=0`
+  const res: SynthesisRes = await myFetch(url, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+      "Referer": "https://juejin.cn/",
+      "Origin": "https://juejin.cn",
+    },
+    body: JSON.stringify({
+      cate_type: "2608",
+      cursor: "0",
+      id_type: 2,
+      limit: 30,
+      sort_type: 300,
+    }),
+  })
+  if (!res.data || !Array.isArray(res.data) || res.data.length === 0) {
+    return []
+  }
+  return res.data.map((k) => {
+    const articleId = k.item_info.article_info.article_id
+    return {
+      id: articleId,
+      title: k.item_info.article_info.title,
+      url: `https://juejin.cn/post/${articleId}`,
+    }
+  })
+})
+
 export default defineSource({
   "juejin": hot,
   "juejin-hot": hot,
   "juejin-news": news,
   "juejin-recommend": recommend,
+  "juejin-synthesis": synthesis,
 })
