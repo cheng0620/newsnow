@@ -1,9 +1,9 @@
 import { XMLParser } from "fast-xml-parser"
 
 const parser = new XMLParser({
-  parseTagValue: true, // 解析节点文本为字符串
-  ignoreAttributes: true, // 忽略XML属性（这里不需要）
-  removeNSPrefix: true, // 移除命名空间前缀（如果有）
+  parseTagValue: true,
+  ignoreAttributes: true,
+  removeNSPrefix: true,
 })
 
 const news = defineSource(async () => {

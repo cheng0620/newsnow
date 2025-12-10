@@ -479,7 +479,6 @@ export const originSources = {
     name: "Odaily",
     column: "web3",
     color: "gray",
-    type: "hottest",
     home: "https://rss.odaily.news",
     sub: {
       news: {
@@ -493,6 +492,26 @@ export const originSources = {
         type: "hottest",
         interval: Time.Common,
         home: "https://rss.odaily.news",
+      },
+    },
+  },
+  "blockbeats": {
+    name: "Blockbeats",
+    column: "web3",
+    color: "blue",
+    home: "https://api.theblockbeats.news",
+    sub: {
+      news: {
+        title: "快讯",
+        type: "realtime",
+        interval: Time.Realtime,
+        home: "https://api.theblockbeats.news",
+      },
+      depth: {
+        title: "深度",
+        type: "hottest",
+        interval: Time.Common,
+        home: "https://api.theblockbeats.news",
       },
     },
   },

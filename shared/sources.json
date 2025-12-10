@@ -570,8 +570,8 @@
     "type": "realtime",
     "column": "web3",
     "home": "https://rss.odaily.news",
-    "color": "green",
-    "interval": 600000,
+    "color": "gray",
+    "interval": 120000,
     "title": "新闻快讯"
   },
   "odaily-news": {
@@ -580,7 +580,7 @@
     "column": "web3",
     "home": "https://rss.odaily.news",
     "color": "gray",
-    "interval": 600000,
+    "interval": 120000,
     "title": "新闻快讯"
   },
   "odaily-essay": {
@@ -591,5 +591,33 @@
     "color": "gray",
     "interval": 1800000,
     "title": "文章"
+  },
+  "blockbeats": {
+    "redirect": "blockbeats-news",
+    "name": "Blockbeats",
+    "type": "realtime",
+    "column": "web3",
+    "home": "https://api.theblockbeats.news",
+    "color": "blue",
+    "interval": 120000,
+    "title": "快讯"
+  },
+  "blockbeats-news": {
+    "name": "Blockbeats",
+    "type": "realtime",
+    "column": "web3",
+    "home": "https://api.theblockbeats.news",
+    "color": "blue",
+    "interval": 120000,
+    "title": "快讯"
+  },
+  "blockbeats-depth": {
+    "name": "Blockbeats",
+    "type": "hottest",
+    "column": "web3",
+    "home": "https://api.theblockbeats.news",
+    "color": "blue",
+    "interval": 1800000,
+    "title": "深度"
   }
 }
