@@ -478,14 +478,21 @@ export const originSources = {
   "odaily": {
     name: "Odaily",
     column: "web3",
-    color: "green",
+    color: "gray",
     type: "hottest",
     home: "https://rss.odaily.news",
     sub: {
       news: {
         title: "新闻快讯",
         type: "realtime",
-        home: "https://www.freebuf.com/news/web3",
+        interval: Time.Realtime,
+        home: "https://rss.odaily.news",
+      },
+      essay: {
+        title: "文章",
+        type: "hottest",
+        interval: Time.Common,
+        home: "https://rss.odaily.news",
       },
     },
   },

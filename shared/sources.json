@@ -569,7 +569,7 @@
     "name": "Odaily",
     "type": "realtime",
     "column": "web3",
-    "home": "https://www.freebuf.com/news/web3",
+    "home": "https://rss.odaily.news",
     "color": "green",
     "interval": 600000,
     "title": "新闻快讯"
@@ -578,9 +578,18 @@
     "name": "Odaily",
     "type": "realtime",
     "column": "web3",
-    "home": "https://www.freebuf.com/news/web3",
-    "color": "green",
+    "home": "https://rss.odaily.news",
+    "color": "gray",
     "interval": 600000,
     "title": "新闻快讯"
+  },
+  "odaily-essay": {
+    "name": "Odaily",
+    "type": "hottest",
+    "column": "web3",
+    "home": "https://rss.odaily.news",
+    "color": "gray",
+    "interval": 1800000,
+    "title": "文章"
   }
 }

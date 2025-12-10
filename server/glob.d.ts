@@ -26,6 +26,7 @@ declare module 'glob:./sources/{*.ts,**/index.ts}' {
   export const linuxdo: typeof import('./sources/linuxdo')
   export const mktnews: typeof import('./sources/mktnews')
   export const nowcoder: typeof import('./sources/nowcoder')
+  export const odaily: typeof import('./sources/odaily')
   export const pcbeta: typeof import('./sources/pcbeta')
   export const producthunt: typeof import('./sources/producthunt')
   export const smzdm: typeof import('./sources/smzdm')
@@ -43,5 +44,4 @@ declare module 'glob:./sources/{*.ts,**/index.ts}' {
   export const xueqiu: typeof import('./sources/xueqiu')
   export const zaobao: typeof import('./sources/zaobao')
   export const zhihu: typeof import('./sources/zhihu')
-  export const odaily: typeof import('./sources/odaily')
 }
