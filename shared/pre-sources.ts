@@ -515,6 +515,26 @@ export const originSources = {
       },
     },
   },
+  "panews": {
+    name: "PANews",
+    column: "web3",
+    color: "blue",
+    home: "https://www.panewslab.com",
+    sub: {
+      news: {
+        title: "快讯",
+        type: "realtime",
+        interval: Time.Realtime,
+        home: "https://www.panewslab.com",
+      },
+      depth: {
+        title: "深度",
+        type: "hottest",
+        interval: Time.Common,
+        home: "https://www.panewslab.com",
+      },
+    },
+  },
 } as const satisfies Record<string, OriginSource>
 
 export function genSources() {

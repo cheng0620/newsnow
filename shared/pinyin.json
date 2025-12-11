@@ -53,5 +53,7 @@
   "odaily-news": "Odaily-xinwenkuaixun",
   "odaily-essay": "Odaily-wenzhang",
   "blockbeats-news": "Blockbeats-kuaixun",
-  "blockbeats-depth": "Blockbeats-shendu"
+  "blockbeats-depth": "Blockbeats-shendu",
+  "panews-news": "PANews-kuaixun",
+  "panews-depth": "PANews-shendu"
 }

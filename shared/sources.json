@@ -619,5 +619,33 @@
     "color": "blue",
     "interval": 1800000,
     "title": "深度"
+  },
+  "panews": {
+    "redirect": "panews-news",
+    "name": "PANews",
+    "type": "realtime",
+    "column": "web3",
+    "home": "https://www.panewslab.com",
+    "color": "blue",
+    "interval": 120000,
+    "title": "快讯"
+  },
+  "panews-news": {
+    "name": "PANews",
+    "type": "realtime",
+    "column": "web3",
+    "home": "https://www.panewslab.com",
+    "color": "blue",
+    "interval": 120000,
+    "title": "快讯"
+  },
+  "panews-depth": {
+    "name": "PANews",
+    "type": "hottest",
+    "column": "web3",
+    "home": "https://www.panewslab.com",
+    "color": "blue",
+    "interval": 1800000,
+    "title": "深度"
   }
 }
