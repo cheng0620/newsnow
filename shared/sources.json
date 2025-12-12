@@ -705,14 +705,23 @@
     "title": "深度"
   },
   "techflow": {
-    "redirect": "techflow-depth",
+    "redirect": "techflow-news",
     "name": "深潮",
-    "type": "hottest",
+    "type": "realtime",
     "column": "web3",
-    "home": "https://www.techflowpost.com/article/index.html",
+    "home": "https://www.techflowpost.com/newsletter/index.html",
     "color": "blue",
-    "interval": 1800000,
-    "title": "精选"
+    "interval": 120000,
+    "title": "7*24H 快讯"
+  },
+  "techflow-news": {
+    "name": "深潮",
+    "type": "realtime",
+    "column": "web3",
+    "home": "https://www.techflowpost.com/newsletter/index.html",
+    "color": "blue",
+    "interval": 120000,
+    "title": "7*24H 快讯"
   },
   "techflow-depth": {
     "name": "深潮",
@@ -722,14 +731,5 @@
     "color": "blue",
     "interval": 1800000,
     "title": "精选"
-  },
-  "techflow-news": {
-    "name": "深潮",
-    "type": "realtime",
-    "column": "web3",
-    "home": "https://www.techflowpost.com/newsletter/index.html",
-    "color": "blue",
-    "interval": 1800000,
-    "title": "快讯"
   }
 }

@@ -61,13 +61,15 @@ function parseNewsItems(html: string): Array<{ href: string, title: string }> {
   const results: Array<{ href: string, title: string }> = []
 
   $(".content").each((_, element) => {
-    const content = $(element).find(".dfont.f18.line20.fw")
-    if (content.length > 0) {
-      results.push({
-        href: content.attr("href") || "",
-        title: content.text().trim() || "",
-      })
-    }
+    $(element).find("dd").each((_, ddElement) => {
+      const link = $(ddElement).find("a")
+      if (link.length > 0) {
+        results.push({
+          href: link.attr("href") || "",
+          title: link.text().trim() || "",
+        })
+      }
+    })
   })
   return results
 }
