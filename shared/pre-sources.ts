@@ -40,15 +40,6 @@ export const originSources = {
     interval: Time.Realtime,
     home: "https://weibo.com",
   },
-  "zaobao": {
-    name: "联合早报",
-    interval: Time.Common,
-    type: "realtime",
-    column: "world",
-    color: "red",
-    desc: "来自第三方网站: 早晨报",
-    home: "https://www.zaobao.com",
-  },
   "coolapk": {
     name: "酷安",
     type: "hottest",
@@ -251,20 +242,6 @@ export const originSources = {
     home: "https://solidot.org",
     interval: Time.Slow,
   },
-  "hackernews": {
-    name: "Hacker News",
-    color: "orange",
-    column: "tech",
-    type: "hottest",
-    home: "https://news.ycombinator.com/",
-  },
-  "producthunt": {
-    name: "Product Hunt",
-    color: "red",
-    column: "tech",
-    type: "hottest",
-    home: "https://www.producthunt.com/",
-  },
   "github": {
     name: "Github",
     color: "gray",
@@ -466,14 +443,6 @@ export const originSources = {
         home: "https://news.qq.com/tag/aEWqxLtdgmQ=",
       },
     },
-  },
-  "freebuf": {
-    name: "Freebuf",
-    column: "china",
-    title: "网络安全",
-    color: "green",
-    type: "hottest",
-    home: "https://www.freebuf.com/",
   },
   "odaily": {
     name: "Odaily",
