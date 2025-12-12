@@ -55,5 +55,11 @@
   "blockbeats-news": "Blockbeats-kuaixun",
   "blockbeats-depth": "Blockbeats-shendu",
   "panews-news": "PANews-kuaixun",
-  "panews-depth": "PANews-shendu"
+  "panews-depth": "PANews-shendu",
+  "chaincatcher-news": "lianbushou-kuaixun",
+  "chaincatcher-essay": "lianbushou-wenzhang",
+  "qukuaizhoukan-news": "qukuaizhoukan-kuaixun",
+  "qukuaizhoukan-depth": "qukuaizhoukan-shendu",
+  "techflow-depth": "shenchao-shendu",
+  "techflow-news": "shenchao-kuaixun"
 }

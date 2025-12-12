@@ -535,6 +535,66 @@ export const originSources = {
       },
     },
   },
+  "chaincatcher": {
+    name: "链捕手",
+    column: "web3",
+    color: "blue",
+    home: "https://www.chaincatcher.com",
+    sub: {
+      news: {
+        title: "快讯",
+        type: "realtime",
+        interval: Time.Realtime,
+        home: "https://www.chaincatcher.com",
+      },
+      essay: {
+        title: "文章",
+        type: "hottest",
+        interval: Time.Common,
+        home: "https://www.chaincatcher.com",
+      },
+    },
+  },
+  "qukuaizhoukan": {
+    name: "区块周刊",
+    column: "web3",
+    color: "blue",
+    home: "https://blockweeks.com",
+    sub: {
+      news: {
+        title: "快讯",
+        type: "realtime",
+        interval: Time.Realtime,
+        home: "https://blockweeks.com/wp-admin/admin-ajax.php",
+      },
+      depth: {
+        title: "深度",
+        type: "hottest",
+        interval: Time.Common,
+        home: "https://blockweeks.com/wp-admin/admin-ajax.php",
+      },
+    },
+  },
+  "techflow": {
+    name: "深潮",
+    column: "web3",
+    color: "blue",
+    home: "https://www.techflowpost.com",
+    sub: {
+      news: {
+        title: "7*24H 快讯",
+        type: "realtime",
+        interval: Time.Realtime,
+        home: "https://www.techflowpost.com/newsletter/index.html",
+      },
+      depth: {
+        title: "精选",
+        type: "hottest",
+        interval: Time.Common,
+        home: "https://www.techflowpost.com/article/index.html",
+      },
+    },
+  },
 } as const satisfies Record<string, OriginSource>
 
 export function genSources() {

@@ -647,5 +647,89 @@
     "color": "blue",
     "interval": 1800000,
     "title": "深度"
+  },
+  "chaincatcher": {
+    "redirect": "chaincatcher-news",
+    "name": "链捕手",
+    "type": "realtime",
+    "column": "web3",
+    "home": "https://www.chaincatcher.com",
+    "color": "blue",
+    "interval": 120000,
+    "title": "快讯"
+  },
+  "chaincatcher-news": {
+    "name": "链捕手",
+    "type": "realtime",
+    "column": "web3",
+    "home": "https://www.chaincatcher.com",
+    "color": "blue",
+    "interval": 120000,
+    "title": "快讯"
+  },
+  "chaincatcher-essay": {
+    "name": "链捕手",
+    "type": "hottest",
+    "column": "web3",
+    "home": "https://www.chaincatcher.com",
+    "color": "blue",
+    "interval": 1800000,
+    "title": "文章"
+  },
+  "qukuaizhoukan": {
+    "redirect": "qukuaizhoukan-news",
+    "name": "区块周刊",
+    "type": "realtime",
+    "column": "web3",
+    "home": "https://blockweeks.com/wp-admin/admin-ajax.php",
+    "color": "blue",
+    "interval": 120000,
+    "title": "快讯"
+  },
+  "qukuaizhoukan-news": {
+    "name": "区块周刊",
+    "type": "realtime",
+    "column": "web3",
+    "home": "https://blockweeks.com/wp-admin/admin-ajax.php",
+    "color": "blue",
+    "interval": 120000,
+    "title": "快讯"
+  },
+  "qukuaizhoukan-depth": {
+    "name": "区块周刊",
+    "type": "hottest",
+    "column": "web3",
+    "home": "https://blockweeks.com/wp-admin/admin-ajax.php",
+    "color": "blue",
+    "interval": 1800000,
+    "title": "深度"
+  },
+  "techflow": {
+    "redirect": "techflow-depth",
+    "name": "深潮",
+    "type": "hottest",
+    "column": "web3",
+    "home": "https://www.techflowpost.com/article/index.html",
+    "color": "blue",
+    "interval": 1800000,
+    "title": "精选"
+  },
+  "techflow-depth": {
+    "name": "深潮",
+    "type": "hottest",
+    "column": "web3",
+    "home": "https://www.techflowpost.com/article/index.html",
+    "color": "blue",
+    "interval": 1800000,
+    "title": "精选"
+  },
+  "techflow-news": {
+    "name": "深潮",
+    "type": "realtime",
+    "column": "web3",
+    "home": "https://www.techflowpost.com/newsletter/index.html",
+    "color": "blue",
+    "interval": 1800000,
+    "title": "快讯"
   }
 }
