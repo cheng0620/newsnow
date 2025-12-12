@@ -595,6 +595,26 @@ export const originSources = {
       },
     },
   },
+  "csdn": {
+    name: "CSDN",
+    column: "technology",
+    title: "CSDN",
+    color: "orange",
+    sub: {
+      hot: {
+        title: "资讯",
+        type: "hottest",
+        interval: Time.Common,
+        home: "https://cms-api.csdn.net/v1/web_home/select_content?componentIds=www-selected-article-tag&channel=0&page=1",
+      },
+      java: {
+        title: "Java",
+        type: "hottest",
+        interval: Time.Common,
+        home: "https://cms-api.csdn.net/v1/web_home/select_content?componentIds=silkroad-pre-home-list&cate1=java",
+      },
+    },
+  },
 } as const satisfies Record<string, OriginSource>
 
 export function genSources() {

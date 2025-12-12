@@ -33,15 +33,6 @@
     "color": "red",
     "interval": 120000
   },
-  "zaobao": {
-    "name": "联合早报",
-    "type": "realtime",
-    "desc": "来自第三方网站: 早晨报",
-    "column": "world",
-    "home": "https://www.zaobao.com",
-    "color": "red",
-    "interval": 1800000
-  },
   "coolapk": {
     "title": "今日最热",
     "name": "酷安",
@@ -314,22 +305,6 @@
     "color": "teal",
     "interval": 3600000
   },
-  "hackernews": {
-    "name": "Hacker News",
-    "type": "hottest",
-    "column": "tech",
-    "home": "https://news.ycombinator.com/",
-    "color": "orange",
-    "interval": 600000
-  },
-  "producthunt": {
-    "name": "Product Hunt",
-    "type": "hottest",
-    "column": "tech",
-    "home": "https://www.producthunt.com/",
-    "color": "red",
-    "interval": 600000
-  },
   "github": {
     "redirect": "github-trending-today",
     "name": "Github",
@@ -555,15 +530,6 @@
     "interval": 1800000,
     "title": "综合早报"
   },
-  "freebuf": {
-    "title": "网络安全",
-    "name": "Freebuf",
-    "type": "hottest",
-    "column": "china",
-    "home": "https://www.freebuf.com/",
-    "color": "green",
-    "interval": 600000
-  },
   "odaily": {
     "redirect": "odaily-news",
     "name": "Odaily",
@@ -731,5 +697,33 @@
     "color": "blue",
     "interval": 1800000,
     "title": "精选"
+  },
+  "csdn": {
+    "redirect": "csdn-hot",
+    "name": "CSDN",
+    "type": "hottest",
+    "column": "technology",
+    "home": "https://cms-api.csdn.net/v1/web_home/select_content?componentIds=www-selected-article-tag&channel=0&page=1",
+    "color": "orange",
+    "interval": 1800000,
+    "title": "资讯"
+  },
+  "csdn-hot": {
+    "name": "CSDN",
+    "type": "hottest",
+    "column": "technology",
+    "home": "https://cms-api.csdn.net/v1/web_home/select_content?componentIds=www-selected-article-tag&channel=0&page=1",
+    "color": "orange",
+    "interval": 1800000,
+    "title": "资讯"
+  },
+  "csdn-java": {
+    "name": "CSDN",
+    "type": "hottest",
+    "column": "technology",
+    "home": "https://cms-api.csdn.net/v1/web_home/select_content?componentIds=silkroad-pre-home-list&cate1=java",
+    "color": "orange",
+    "interval": 1800000,
+    "title": "Java"
   }
 }
